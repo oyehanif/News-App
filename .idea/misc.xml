@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/drawable/email.xml" value="0.166" />
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.166" />
         <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/drawable/round_back_sec1000.xml" value="0.166" />
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/drawable/user_icon.xml" value="0.166" />
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/activity_login.xml" value="0.2359375" />
         <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/activity_web_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/fragment_all_news__fregment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Hanif/AndroidStudioProjects/NewsWale/app/src/main/res/layout/fragment_business.xml" value="0.25416666666666665" />

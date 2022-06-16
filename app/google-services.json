@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805190726043",
+    "project_id": "newswale-66de8",
+    "storage_bucket": "newswale-66de8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805190726043:android:620f606992b07f3658713e",
+        "android_client_info": {
+          "package_name": "com.example.newswale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805190726043-65cb79m87uilhf63573i3vcmqduua12a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjLmS3dukm5XZUoFuyvOB1K3J6_pSJ6yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805190726043-65cb79m87uilhf63573i3vcmqduua12a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
