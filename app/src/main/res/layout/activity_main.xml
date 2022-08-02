@@ -7,21 +7,84 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize">
 
         <TextView
+            android:id="@+id/newsNameTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_marginLeft="50dp"
             android:fontFamily="@font/carter_one"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             android:text="News Wale"
             android:textColor="#0E96CD"
             android:textSize="30dp" />
-    </RelativeLayout>
 
+
+        <ImageView
+            android:id="@+id/logoutImg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/logout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/searchImg"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/ic_baseline_search_24"
+            app:layout_constraintEnd_toStartOf="@id/logoutImg"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/searchLayout"
+    android:visibility="gone"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextField"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Search Here">
+
+        <!--android:visibility="gone"-->
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etSearch"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <ImageView
+        android:id="@+id/searchImgBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_baseline_search_24"/>
+</LinearLayout>
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
@@ -33,8 +96,4 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/viewPager"/>
-
-
-
-
 </LinearLayout>

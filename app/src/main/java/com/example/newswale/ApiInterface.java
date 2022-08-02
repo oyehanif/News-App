@@ -27,11 +27,9 @@ public interface ApiInterface {
             @Query("apiKey") String apiKey
     );
 
-    @GET("top-headlines")
-    Call<mainNews> getsearchNews(
-            @Query("country") String country,
+    @GET("everything/{q}")
+    Call<mainNews> getSearchNews(
             @Query("q") String q,
-            @Query("pageSize") int pageSize,
             @Query("apiKey") String apiKey
     );
 }
